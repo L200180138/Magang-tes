@@ -1,0 +1,124 @@
+/* --------------------------------------------------------------------------
+1. Header Section
+-------------------------------------------------------------------------- */
+
+.header-home {
+  margin-top: 42px;
+
+  .date {
+    background: #feb661;
+    width: 285px;
+
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .title {
+    color: #000;
+
+    h3 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 60px;
+      line-height: 80px;
+
+      span {
+        color: $primary;
+      }
+    }
+  }
+
+  .hero-card {
+    position: relative;
+    width: 550px;
+    height: 266px;
+    background-image: linear-gradient(
+      270deg,
+      rgba(254, 182, 97, 0.2074) 0%,
+      rgba(255, 243, 238, 0.34) 100%
+    );
+
+    .project-estimate {
+      position: absolute;
+      top: 20px;
+      left: 24px;
+      font-size: $h7-font-size;
+      background-color: $purple;
+    }
+
+    .team-achievment {
+      font-size: $h7-font-size;
+      position: absolute;
+      bottom: 20px;
+      right: 24px;
+      p {
+        line-height: 1.5rem;
+      }
+    }
+    .team-profile {
+      font-size: $h7-font-size;
+      position: absolute;
+      bottom: 20px;
+      left: 24px;
+      p {
+        line-height: 1.5rem;
+      }
+    }
+
+    .team-profile .row {
+      position: absolute;
+      // padding-left: 28px;
+      // padding-right: 28px;
+      // margin-top: 116px;
+
+      bottom: 20px;
+      left: 24px;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+2. Content Section
+-------------------------------------------------------------------------- */
+
+.content-home {
+  margin-top: 45px;
+
+  .shots {
+    margin-top: 0px;
+  }
+
+  .upcoming {
+    .upcoming-content {
+      float: right;
+      overflow: auto;
+      height: 451px;
+      .item {
+        margin-bottom: 6px;
+
+        img {
+          margin-right: 12px;
+        }
+
+        p {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 18px;
+          color: #665b5b;
+
+          span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+
+            color: #7b7b7b;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../src/scss/documentation(admin).scss"
+    ],
+    "names": [],
+    "file": "documentation(admin).min.css"
+}

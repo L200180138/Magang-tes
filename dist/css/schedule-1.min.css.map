@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../src/scss/schedule-1.scss"
+    ],
+    "names": [],
+    "file": "schedule-1.min.css"
+}
