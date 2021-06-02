@@ -2,19 +2,21 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Team</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Schedule</title>
 
-  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="dist/css/main.min.css" />
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body class="background-body">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-      <a class="navbar-logo" href="#"><img id="navbar-logo" src="dist/img/logo.png" alt=""></a>
+      <a class="navbar-logo" href="#"><img id="navbar-logo" src="dist/img/logo.png" alt="" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -22,141 +24,314 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link fs-7 py-2 px-4 active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">UI/UX</a>
+            <a class="nav-link fs-7 py-2 px-4" href="#">UI/UX</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Web</a>
+            <a class="nav-link fs-7 py-2 px-4" href="#">Web</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Mobile</a>
+            <a class="nav-link fs-7 py-2 px-4" href="#">Mobile</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            <a class="nav-link fs-7 py-2 px-4 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               Projects
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Documentation</a></li>
+              <li><a class="dropdown-item text-medium text-black" href="#">Documentation</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Team</a>
+            <a class="nav-link fs-7 py-2 px-4" href="#">Team</a>
           </li>
-          <li>
-            <img src="assets/icons/Notification.svg" alt="">
+          <li class="nav-asset py-2 px-4">
+            <img src="dist/icons/Notification.svg" alt="" />
           </li>
-          <li>
-            <img src="assets/img/profile.png" alt="">
+          <li class="nav-asset py-1 px-2">
+            <img src=" dist/img/profile.png" alt="" />
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <section class="content">
+  <section class="content-team">
     <div class="container">
-      <div class="row ">
+      <div class="row">
         <div class="col-6">
-          <div class="all-team">
-            <div class="item">
-              <p>Carollina Dine</p>
-              <div class="rectangles">
-                <p>Internship</p>
+          <div class="label-all-team radius-tupai text-center mt-4">
+            <span class="name">
+              All Team
+            </span>
+          </div>
+          <div class="row">
+            <div class="col-6 content-team">
+              <div class="card p-3 pb-0" style="background: url('dist/img/bg-1.png') 0 0 no-repeat;
+              background-size: cover;">
+                <div class="at-items">
+                  <span class="name"><b>Carollina Dine</b></span>
+                  <div class="items-depart radius-tupai text-center mt-2">
+                    <span class="">
+                      UI Designer
+                    </span>
+                  </div>
+                  <img src="dist/img/img-1.png" alt="">
+                </div>
               </div>
-              <img src="assets/img/img-1.png" alt="">
             </div>
-            <div class="item">
-              <p>Carollina Dine</p>
-              <div class="rectangles">
-                <p>Internship</p>
+            <div class="col-6 content-team">
+              <div class="card p-3 pb-0" style="background: url('dist/img/bg-1.png') 0 0 no-repeat;
+              background-size: cover;">
+                <div class="at-items">
+                  <span class="name"><b>Kevin Sanjaya</b></span>
+                  <div class="items-depart radius-tupai text-center mt-2">
+                    <span class="">
+                      UI Designer
+                    </span>
+                  </div>
+                  <img src="dist/img/img-2.png" alt="">
+                </div>
               </div>
-              <img src="assets/img/img-1.png" alt="">
             </div>
-            <div class="item">
-              <p>Carollina Dine</p>
-              <div class="rectangles">
-                <p>Internship</p>
+            <div class="col-6 content-team">
+              <div class="card p-3 pb-0" style="background: url('dist/img/bg-1.png') 0 0 no-repeat;
+              background-size: cover;">
+                <div class="at-items">
+                  <span class="name"><b>Ronald Regan</b></span>
+                  <div class="items-depart radius-tupai text-center mt-2">
+                    <span class="">
+                      UI Designer
+                    </span>
+                  </div>
+                  <img src="dist/img/img-3.png" alt="">
+                </div>
               </div>
-              <img src="assets/img/img-1.png" alt="">
             </div>
-            <div class="item">
-              <p>Carollina Dine</p>
-              <div class="rectangles">
-                <p>Internship</p>
+            <div class="col-6 content-team">
+              <div class="card p-3 pb-0" style="background: url('dist/img/bg-1.png') 0 0 no-repeat;
+              background-size: cover;">
+                <div class="at-items">
+                  <span class="name"><b>Sabrina Sarapova</b></span>
+                  <div class="items-depart radius-tupai text-center mt-2">
+                    <span class="">
+                      UI Designer
+                    </span>
+                  </div>
+                  <img src="dist/img/img-4.png" alt="">
+                </div>
               </div>
-              <img src="assets/img/img-1.png" alt="">
             </div>
-            <div class="item">
-              <p>Carollina Dine</p>
-              <div class="rectangles">
-                <p>Internship</p>
+            <div class="col-6 content-team">
+              <div class="card p-3 pb-0" style="background: url('dist/img/bg-1.png') 0 0 no-repeat;
+              background-size: cover;">
+                <div class="at-items">
+                  <span class="name"><b>Carollina Dine</b></span>
+                  <div class="items-depart radius-tupai text-center mt-2">
+                    <span class="">
+                      UI Designer
+                    </span>
+                  </div>
+                  <img src="dist/img/img-1.png" alt="">
+                </div>
               </div>
-              <img src="assets/img/img-1.png" alt="">
             </div>
-            <div class="item">
-              <p>Carollina Dine</p>
-              <div class="rectangles">
-                <p>Internship</p>
+            <div class="col-6 content-team">
+              <div class="card p-3 pb-0" style="background: url('dist/img/bg-1.png') 0 0 no-repeat;
+              background-size: cover;">
+                <div class="at-items">
+                  <span class="name"><b>Kevin Sanjaya</b></span>
+                  <div class="items-depart radius-tupai text-center mt-2">
+                    <span class="">
+                      UI Designer
+                    </span>
+                  </div>
+                  <img src="dist/img/img-2.png" alt="">
+                </div>
               </div>
-              <img src="assets/img/img-1.png" alt="">
             </div>
           </div>
         </div>
-
-        <div class="col-6">
-          <div class="all-project">
-            <div class="rectangles title">
-              <p>All Project</p>
-            </div>
-          </div>
-          <div class="rect-item">
-            <div class="rectangles box">
-              <p>Total</p>
-              <div class="v1"></div>
-              <p>12</p>
-            </div>
-            <div class="rectangles box">
-              <p>In progress</p>
-              <div class="v1"></div>
-              <p>12</p>
-            </div>
-            <div class="rectangles box">
-              <p>Finished</p>
-              <div class="v1"></div>
-              <p>12</p>
-            </div>
-            <div class="rectangles box">
-              <p>Estimate</p>
-              <div class="v1"></div>
-              <p>4W</p>
-            </div>
-          </div>
-          <div class="in-progress">
-            <p>In Progress</p>
-            <div class="ip-item">
-              <div class="rectangles">
-                <p class="title">Twitter</p>
-                <div class="btn-item">
-                  <p>Website</p>
+        <div class="col-6 content-team-progress">
+          <div class="card p-3 radius-tupai">
+            <div class="all-progress">
+              <div class="label-all-progress radius-tupai text-center mt-1">
+                <span class="name">
+                  All Progress
+                </span>
+              </div>
+              <div class="row mt-3">
+                <div class="col-3">
+                  <div class="card box radius-tupai text-center">
+                    <p class="total pt-2 mb-0">Total</p>
+                    <p><b>12</b></p>
+                  </div>
                 </div>
-                <div class="btn-mobile">
-                  <p>Mobile</p>
+                <div class="col-3">
+                  <div class="card box radius-tupai text-center">
+                    <p class="total pt-2 mb-0">Total</p>
+                    <p><b>12</b></p>
+                  </div>
                 </div>
-                <div class="sub-title">
-                  <p>22 task | 9 April 2021</p>
+                <div class="col-3">
+                  <div class="card box radius-tupai text-center">
+                    <p class="total pt-2 mb-0">Total</p>
+                    <p><b>12</b></p>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="card box radius-tupai text-center">
+                    <p class="total pt-2 mb-0">Total</p>
+                    <p><b>12</b></p>
+                  </div>
                 </div>
               </div>
             </div>
+            <div class="all-progress">
+              <div class="label-all-progress radius-tupai text-center mt-4">
+                <span class="name">
+                  In Progress
+                </span>
+              </div>
+              <div class="row">
+                <div class="col-12 mt-3">
+                  <div class="card box radius-tupai" style="background: url('dist/img/bg-2.png') 0 0 no-repeat;
+                  background-size: cover;">
+                    <div class="row">
+                      <div class="col-6">
+                        <p class="mb-0"><b>Twitter</b></p>
+                        <p class="p-kecil">
+                          22 Task | <b style="margin-left: 12px;"> 9 April 2021</b>
+                        </p>
+                      </div>
+                      <div class="col-6">
+                        <div class="d-flex" style="float: right;">
+                          <div class="label-web radius-tupai text-center text-light">
+                            <span>
+                              Website
+                            </span>
+                          </div>
+                          <div class="label-mobile radius-tupai text-center text-light">
+                            <span>
+                              Mobile
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="p-deskripsi">
+                      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                      classical Latin ...
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12 mt-3">
+                  <div class="card box radius-tupai" style="background: url('dist/img/bg-2.png') 0 0 no-repeat;
+                  background-size: cover;">
+                    <div class="row">
+                      <div class="col-6">
+                        <p class="mb-0"><b>Twitter</b></p>
+                        <p class="p-kecil">
+                          22 Task | <b style="margin-left: 12px;"> 9 April 2021</b>
+                        </p>
+                      </div>
+                      <div class="col-6">
+                        <div class="d-flex" style="float: right;">
+                          <div class="label-web radius-tupai text-center text-light">
+                            <span>
+                              Website
+                            </span>
+                          </div>
+                          <div class="label-mobile radius-tupai text-center text-light">
+                            <span>
+                              Mobile
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <p class="p-deskripsi">
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin ...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 mt-3">
+                  <div class="card box radius-tupai" style="background: url('dist/img/bg-2.png') 0 0 no-repeat;
+                  background-size: cover;">
+                    <div class="row">
+                      <div class="col-6">
+                        <p class="mb-0"><b>Twitter</b></p>
+                        <p class="p-kecil">
+                          22 Task | <b style="margin-left: 12px;"> 9 April 2021</b>
+                        </p>
+                      </div>
+                      <div class="col-6">
+                        <div class="d-flex" style="float: right;">
+                          <div class="label-web radius-tupai text-center text-light">
+                            <span>
+                              Website
+                            </span>
+                          </div>
+                          <div class="label-mobile radius-tupai text-center text-light">
+                            <span>
+                              Mobile
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <p class="p-deskripsi">
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin ...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 mt-3">
+                  <div class="card box radius-tupai" style="background: url('dist/img/bg-2.png') 0 0 no-repeat;
+                  background-size: cover;">
+                    <div class="row">
+                      <div class="col-6">
+                        <p class="mb-0"><b>Twitter</b></p>
+                        <p class="p-kecil">
+                          22 Task | <b style="margin-left: 12px;"> 9 April 2021</b>
+                        </p>
+                      </div>
+                      <div class="col-6">
+                        <div class="d-flex" style="float: right;">
+                          <div class="label-web radius-tupai text-center text-light">
+                            <span>
+                              Website
+                            </span>
+                          </div>
+                          <div class="label-mobile radius-tupai text-center text-light">
+                            <span>
+                              Mobile
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <p class="p-deskripsi">
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin ...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
+
         </div>
       </div>
-    </div>
   </section>
 
-  <section>
+
+
+  <section class="footer" style="margin-top: 20px;">
     <footer>
       <p>
         <center>Copyright © 2021 Tupai Tech. All Rights Reserved</center>
@@ -164,8 +339,7 @@
     </footer>
   </section>
 
-
-
+  <script src="dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
