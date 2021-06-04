@@ -46,6 +46,7 @@ $h4-font-size: 28px;
 $h5-font-size: 24px;
 $h6-font-size: 18px;
 $h7-font-size: 14px;
+$h8-font-size: 12px;
 
 $font-weight-light: 300;
 $font-weight-regular: 400;
@@ -139,15 +140,28 @@ body {
 .radius-tupai {
   border-radius: $radius-tupai;
 }
+.radius-tupai-2 {
+  border-radius: 5px;
+}
 .bg-purple {
   background-color: $purple;
 }
 .bg-primary {
   background-color: $primary;
 }
+.bg-imgblank {
+  background: #f2f2f2;
+  border-radius: 5px;
+}
+.bg-white {
+  background-color: #ffffff;
+}
 .text-black {
   color: $black;
 }
 .fs-7 {
   font-size: $h7-font-size;
+}
+.fs-8 {
+  font-size: $h8-font-size;
 }
